@@ -1,11 +1,7 @@
-import AppBar from "./components/AppBar";
+import Routes from "./routes/Routes";
 
 const App = () => {
-  return (
-    <div>
-      <AppBar />
-    </div>
-  );
+  return <Routes />;
 };
 
 export default App;
